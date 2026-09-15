@@ -1,0 +1,17 @@
+MH TOUR V8.0.3 - PETUNJUK INSTALL
+
+JANGAN mencoba meng-install file ZIP project.
+JANGAN mencoba meng-install ZIP artifact GitHub.
+
+Yang di-install di HP hanya file:
+MH-Tour-V8.0.3-Android-Install.apk
+
+APK ini dibuat oleh GitHub Actions dengan assembleDebug, sehingga sudah
+ditandatangani debug untuk pengujian dan dapat dipasang pada Android.
+
+Jika Android masih mengatakan "Paket tidak lengkap", pastikan:
+1. File benar-benar berakhiran .apk, bukan .zip.
+2. ZIP artifact sudah di-extract.
+3. File APK tidak diubah namanya menjadi .zip.
+4. Hapus APK versi lama MH Tour sebelum mencoba ulang jika Android mendeteksi
+   konflik signature/package.
